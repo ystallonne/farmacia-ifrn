@@ -1,5 +1,5 @@
 #labels FarmáciadeTodos,CEASA,GovernodeTodos
-#Descrição do programa Farmácia de Todos do Governo do Estado do RN.
+ # Descrição do programa Farmácia de Todos do Governo do Estado do RN.
 
 = Histórico do programa=
 
