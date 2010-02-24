@@ -45,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empresa.cs" />
+    <Compile Include="Interface\IEmpresa.cs" />
+    <Compile Include="Interface\IEndereco.cs" />
+    <Compile Include="Interface\ISac.cs" />
+    <Compile Include="Sac.cs" />
+    <Compile Include="Telefone.cs" />
+    <Compile Include="Endereco.cs" />
     <Compile Include="Interface\IPessoa.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Pessoas.cs" />
