@@ -1,8 +1,9 @@
 ﻿using System;
+using SIDAF.Model.Interface;
 
 namespace SIDAF.Model
 {
-    public class Pessoa 
+    public class Pessoa : IPessoa 
     {
         #region Atributos
         private Nullable<int> oid;

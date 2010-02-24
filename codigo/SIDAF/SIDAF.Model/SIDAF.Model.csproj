@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enum\BuscaPessoa.cs" />
+    <Compile Include="Interface\IPessoa.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Pessoas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
