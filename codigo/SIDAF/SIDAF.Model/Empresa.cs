@@ -6,7 +6,7 @@ using SIDAF.Model.Interface;
 
 namespace SIDAF.Model
 {
-    class Empresa : IEmpresa
+    public class Empresa : IEmpresa
     {
         private Nullable<int> oid;
 
