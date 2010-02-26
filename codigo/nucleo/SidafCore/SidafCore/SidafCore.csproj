@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3B2B981D-AA7C-4921-8566-98513F1FD547}</ProjectGuid>
+    <ProjectGuid>{E9DD71D0-08DD-400E-A644-A7F1A0A515C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SIDAF.Model</RootNamespace>
-    <AssemblyName>SIDAF.Model</AssemblyName>
+    <RootNamespace>SidafCore</RootNamespace>
+    <AssemblyName>SidafCore</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,38 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Clientes.cs" />
-    <Compile Include="Pedido.cs" />
-    <Compile Include="Empresa.cs" />
-    <Compile Include="Empresas.cs" />
-    <Compile Include="Enderecos.cs" />
-    <Compile Include="Especificacao.cs" />
-    <Compile Include="Filial.cs" />
-    <Compile Include="Funcionario.cs" />
-    <Compile Include="Funcionarios.cs" />
-    <Compile Include="IItemEstoque.cs" />
-    <Compile Include="Interface\IEspecificacao.cs" />
-    <Compile Include="Interface\IFuncionario.cs" />
-    <Compile Include="Interface\ICliente.cs" />
-    <Compile Include="Interface\IEmpresa.cs" />
-    <Compile Include="Interface\IEndereco.cs" />
-    <Compile Include="Interface\ISac.cs" />
-    <Compile Include="Interface\IProduto.cs" />
-    <Compile Include="ItemEstoque.cs" />
-    <Compile Include="Produto.cs" />
-    <Compile Include="Sac.cs" />
-    <Compile Include="Sacs.cs" />
-    <Compile Include="Telefone.cs" />
-    <Compile Include="Endereco.cs" />
-    <Compile Include="Interface\IPessoa.cs" />
-    <Compile Include="Pessoa.cs" />
-    <Compile Include="Pessoas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Telefones.cs" />
     <Compile Include="TipoProduto.cs" />
-    <Compile Include="Usuario.cs" />
-    <Compile Include="Usuarios.cs" />
+    <Compile Include="Venda.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
