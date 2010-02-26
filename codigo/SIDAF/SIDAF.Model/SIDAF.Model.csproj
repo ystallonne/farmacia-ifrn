@@ -46,22 +46,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cliente.cs" />
+    <Compile Include="Clientes.cs" />
     <Compile Include="Empresa.cs" />
+    <Compile Include="Empresas.cs" />
+    <Compile Include="Enderecos.cs" />
     <Compile Include="Filial.cs" />
     <Compile Include="Funcionario.cs" />
+    <Compile Include="Funcionarios.cs" />
     <Compile Include="Interface\IFuncionario.cs" />
     <Compile Include="Interface\ICliente.cs" />
     <Compile Include="Interface\IEmpresa.cs" />
     <Compile Include="Interface\IEndereco.cs" />
     <Compile Include="Interface\ISac.cs" />
     <Compile Include="Sac.cs" />
+    <Compile Include="Sacs.cs" />
     <Compile Include="Telefone.cs" />
     <Compile Include="Endereco.cs" />
     <Compile Include="Interface\IPessoa.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Pessoas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telefones.cs" />
     <Compile Include="Usuario.cs" />
+    <Compile Include="Usuarios.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
