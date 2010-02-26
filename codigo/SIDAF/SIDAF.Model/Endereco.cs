@@ -6,7 +6,7 @@ using SIDAF.Model.Interface;
 
 namespace SIDAF.Model
 {
-    class Endereco : IEndereco
+    public class Endereco : IEndereco
     {
         private Nullable<int> oid;
 
