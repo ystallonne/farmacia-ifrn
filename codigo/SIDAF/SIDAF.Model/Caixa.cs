@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Caixa : SIDAF.Model.ICaixa
+    public class Caixa : SIDAF.Model.ICaixa
     {
         #region Fields
         private Nullable<int> oid;
