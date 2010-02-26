@@ -29,7 +29,7 @@ namespace SIDAF.Model
             get { return dataFechamento; }
             set { dataFechamento = value; }
         }
-        private Funcionario func;
+        private Funcionario funcionario;
         private Venda venda;
         private Entrada entrada;
         private Saida saida;
