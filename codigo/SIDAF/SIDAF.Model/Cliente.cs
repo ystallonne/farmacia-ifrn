@@ -16,7 +16,7 @@ namespace SIDAF.Model
         
         private Usuario usuario;
 
-        internal Usuario Usuario
+        public Usuario Usuario
         {
             get { return usuario; }
             set { usuario = value; }
@@ -24,7 +24,7 @@ namespace SIDAF.Model
 
         private Endereco endereco;
 
-        internal Endereco Endereco
+        public Endereco Endereco
         {
             get { return endereco; }
             set { endereco = value; }

@@ -50,7 +50,7 @@ namespace SIDAF.Model
 
         private Endereco endereco;
 
-        internal Endereco Endereco
+        public Endereco Endereco
         {
             get { return endereco; }
             set { endereco = value; }

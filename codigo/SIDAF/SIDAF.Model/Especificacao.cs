@@ -26,7 +26,7 @@ namespace SIDAF.Model
 
         private Produto produto;
 
-        internal Produto Produto
+        public Produto Produto
         {
             get { return produto; }
             set { produto = value; }
