@@ -30,7 +30,19 @@ namespace SIDAF.Model
             set { tipoEstorno = value; }
         }
         private Venda venda;
+
+        public Venda Venda
+        {
+            get { return venda; }
+            set { venda = value; }
+        }
         private Funcionario func;
+
+        public Funcionario Func
+        {
+            get { return func; }
+            set { func = value; }
+        }
         #endregion Fields
     }
 }
