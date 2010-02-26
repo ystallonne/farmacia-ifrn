@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3B2B981D-AA7C-4921-8566-98513F1FD547}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -45,8 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caixa.cs" />
+    <Compile Include="Caixas.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Clientes.cs" />
+    <Compile Include="Entrada.cs" />
+    <Compile Include="Entradas.cs" />
+    <Compile Include="Estorno.cs" />
+    <Compile Include="Estornos.cs" />
+    <Compile Include="Interface\ICaixa.cs" />
+    <Compile Include="Interface\IEntrada.cs" />
+    <Compile Include="Interface\IEstorno.cs" />
+    <Compile Include="Interface\ISaida.cs" />
+    <Compile Include="Interface\ITipoProduto.cs" />
+    <Compile Include="Interface\IVenda.cs" />
     <Compile Include="Pedido.cs" />
     <Compile Include="Empresa.cs" />
     <Compile Include="Empresas.cs" />
@@ -55,7 +67,7 @@
     <Compile Include="Filial.cs" />
     <Compile Include="Funcionario.cs" />
     <Compile Include="Funcionarios.cs" />
-    <Compile Include="IItemEstoque.cs" />
+    <Compile Include="Interface\IItemEstoque.cs" />
     <Compile Include="Interface\IEspecificacao.cs" />
     <Compile Include="Interface\IFuncionario.cs" />
     <Compile Include="Interface\ICliente.cs" />
@@ -67,6 +79,8 @@
     <Compile Include="Produto.cs" />
     <Compile Include="Sac.cs" />
     <Compile Include="Sacs.cs" />
+    <Compile Include="Saida.cs" />
+    <Compile Include="Saidas.cs" />
     <Compile Include="Telefone.cs" />
     <Compile Include="Endereco.cs" />
     <Compile Include="Interface\IPessoa.cs" />
@@ -77,6 +91,8 @@
     <Compile Include="TipoProduto.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Usuarios.cs" />
+    <Compile Include="Venda.cs" />
+    <Compile Include="Vendas.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
