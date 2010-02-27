@@ -3,7 +3,7 @@ namespace SIDAF.Model
 {
     interface IVenda
     {
-        DateTime Data { get; set; }
+        DateTime DataVenda { get; set; }
         int? Oid { get; set; }
     }
 }
