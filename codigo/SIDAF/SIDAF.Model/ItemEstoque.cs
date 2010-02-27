@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class ItemEstoque : SIDAF.Model.IItemEstoque
+    public class ItemEstoque : SIDAF.Model.IItemEstoque
     {
 
         #region atributos

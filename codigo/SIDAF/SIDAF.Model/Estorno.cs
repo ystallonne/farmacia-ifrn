@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Estorno : SIDAF.Model.IEstorno
+    public class Estorno : SIDAF.Model.IEstorno
     {
         #region Fields
         private Nullable<int> oid;
