@@ -10,7 +10,7 @@ namespace SIDAF.Model
         string Logradouro { get; set; }
         string Numero { get; set; }
         int? Oid { get; set; }
-        System.Collections.Generic.List<Telefone> Telefone { get; set; }
+        Telefones Telefone { get; set; }
         string ToString();
        
     }
