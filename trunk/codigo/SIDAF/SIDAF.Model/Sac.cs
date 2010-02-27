@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using SIDAF.Model.Interface;
 
-
-
-
 namespace SIDAF.Model
 {
-    class Sac : ISac
+    public class Sac : ISac
     {
         // Empresa???
         private Nullable<int> oid;

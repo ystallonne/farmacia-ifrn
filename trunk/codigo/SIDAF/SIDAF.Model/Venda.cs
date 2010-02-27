@@ -8,7 +8,7 @@ using SIDAF.Model.Interface;
 
 namespace SIDAF.Model
 {
-    class Venda : IVenda, SIDAF.Model.IVenda
+    public class Venda : IVenda, SIDAF.Model.IVenda
     {
         #region Fields
         private Nullable<int> oid;
