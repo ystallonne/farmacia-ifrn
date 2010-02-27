@@ -36,12 +36,12 @@ namespace SIDAF.Model
             get { return venda; }
             set { venda = value; }
         }
-        private Funcionario func;
+        private Funcionario funcionario;
 
-        public Funcionario Func
+        public Funcionario Funcionario
         {
-            get { return func; }
-            set { func = value; }
+            get { return funcionario; }
+            set { funcionario = value; }
         }
         #endregion Fields
     }
