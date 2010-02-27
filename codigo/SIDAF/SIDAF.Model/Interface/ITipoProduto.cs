@@ -4,7 +4,7 @@ namespace SIDAF.Model
 {
     public interface ITipoProduto
     {
-        int? Id { get; }
+        int? Oid { get; }
         string? Nome { get; set; }
         string ToString();
     }
