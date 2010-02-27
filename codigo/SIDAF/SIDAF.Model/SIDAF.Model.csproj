@@ -51,6 +51,7 @@
     <Compile Include="Clientes.cs" />
     <Compile Include="Entrada.cs" />
     <Compile Include="Entradas.cs" />
+    <Compile Include="Enum\StatusPedido.cs" />
     <Compile Include="Especificacoes.cs" />
     <Compile Include="Estorno.cs" />
     <Compile Include="Estornos.cs" />
