@@ -7,9 +7,9 @@ namespace SIDAF.Model
 {
     public class Telefone
     {
-        private int oid;
+        private Nullable<int> oid;
 
-        public int Oid
+        public Nullable<int> Oid
         {
             get { return oid; }
             set { oid = value; }
