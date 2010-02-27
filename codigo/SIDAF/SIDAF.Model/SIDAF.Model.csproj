@@ -51,8 +51,10 @@
     <Compile Include="Clientes.cs" />
     <Compile Include="Entrada.cs" />
     <Compile Include="Entradas.cs" />
+    <Compile Include="Especificacoes.cs" />
     <Compile Include="Estorno.cs" />
     <Compile Include="Estornos.cs" />
+    <Compile Include="Filiais.cs" />
     <Compile Include="Interface\ICaixa.cs" />
     <Compile Include="Interface\IEntrada.cs" />
     <Compile Include="Interface\IEstorno.cs" />
