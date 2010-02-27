@@ -63,6 +63,7 @@
     <Compile Include="Interface\ITipoProduto.cs" />
     <Compile Include="Interface\IVenda.cs" />
     <Compile Include="ItensEstoque.cs" />
+    <Compile Include="Interface\IUsuario.cs" />
     <Compile Include="Pedido.cs" />
     <Compile Include="Empresa.cs" />
     <Compile Include="Empresas.cs" />
