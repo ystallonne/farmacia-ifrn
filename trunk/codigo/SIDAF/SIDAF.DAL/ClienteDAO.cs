@@ -25,7 +25,7 @@ namespace SIDAF.DAL
 
                 cmd.Parameters.AddWithValue("@orgao", cliente.OrgaoEmissor);
 
-                cmd.Parameters.AddWithValue("@dataNasc", cliente.DataNasc);
+                cmd.Parameters.AddWithValue("@dataNasc", cliente.DataNascimento);
 
                 cmd.Parameters.AddWithValue("@naturalidade", cliente.Naturalidade);
 
@@ -57,7 +57,7 @@ namespace SIDAF.DAL
                 cmd.Parameters.AddWithValue("@cpf", cliente.Cpf);
                 cmd.Parameters.AddWithValue("@rg", cliente.Rg);
                 cmd.Parameters.AddWithValue("@orgao", cliente.OrgaoEmissor);
-                cmd.Parameters.AddWithValue("@dataNasc", cliente.DataNasc);
+                cmd.Parameters.AddWithValue("@dataNasc", cliente.DataNascimento);
                 cmd.Parameters.AddWithValue("@naturalidade", cliente.Naturalidade);
                 cmd.Parameters.AddWithValue("@nacionalidade", cliente.Nacionalidade);
                 cmd.ExecuteNonQuery();

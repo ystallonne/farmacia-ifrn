@@ -58,12 +58,12 @@ namespace SIDAF.Model
             get { return orgaoEmissor; }
             set { orgaoEmissor = value; }
         }
-        private DateTime dataNasc;
+        private DateTime dataNascimento;
 
-        public DateTime DataNasc
+        public DateTime DataNascimento
         {
-            get { return dataNasc; }
-            set { dataNasc = value; }
+            get { return dataNascimento; }
+            set { dataNascimento = value; }
         }
         private string naturalidade;
 
@@ -92,14 +92,14 @@ namespace SIDAF.Model
             this.cpf = cpf;
             this.rg = rg;
             this.orgaoEmissor = orgaoEmissor;
-            this.dataNasc = dataNasc;
+            this.dataNascimento = dataNasc;
             this.naturalidade = naturalidade;
             this.nacionalidade = nacionalidade;
         }
 
         public override string ToString()
         {
-            return this.nome + " - " + this.dataNasc.ToString() + " - " + this.cpf.ToString() + " - " + this.endereco.ToString();
+            return this.nome + " - " + this.dataNascimento.ToString() + " - " + this.cpf.ToString() + " - " + this.endereco.ToString();
         } 
         
     }
