@@ -58,9 +58,9 @@ namespace SIDAF.Model
             set { cep = value; }
         }
 
-        private List<Telefone> telefone;
+        private Telefones telefone;
 
-        public List<Telefone> Telefone
+        public Telefones Telefone
         {
             get { return telefone; }
             set { telefone = value; }
@@ -71,7 +71,7 @@ namespace SIDAF.Model
         }
 
         public Endereco(string logradouro, string numero, string complemento, 
-            string cidade, string uf, List<Telefone> telefone)
+            string cidade, string uf, Telefones telefone)
         {
             this.logradouro = logradouro;
             this.numero = numero;
