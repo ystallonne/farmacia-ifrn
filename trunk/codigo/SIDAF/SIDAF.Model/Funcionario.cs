@@ -9,9 +9,9 @@ namespace SIDAF.Model
 {
     public class Funcionario : IFuncionario
     {
-        private int oid;
+        private Nullable<int> oid;
 
-        public int Oid
+        public Nullable<int> Oid
         {
             get { return oid; }
             set { oid = value; }
