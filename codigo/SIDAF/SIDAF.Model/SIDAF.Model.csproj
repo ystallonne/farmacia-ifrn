@@ -82,6 +82,7 @@
     <Compile Include="ItemEstoque.cs" />
     <Compile Include="Pedidos.cs" />
     <Compile Include="Produto.cs" />
+    <Compile Include="Produtos.cs" />
     <Compile Include="Sac.cs" />
     <Compile Include="Sacs.cs" />
     <Compile Include="Saida.cs" />
