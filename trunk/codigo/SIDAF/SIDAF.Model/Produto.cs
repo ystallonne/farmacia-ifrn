@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Produto : SIDAF.Model.IProduto
+    public class Produto : SIDAF.Model.IProduto
     {
 
         #region atributos
