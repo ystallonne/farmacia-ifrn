@@ -8,7 +8,7 @@ using SIDAF.Model.Interface;
 
 namespace SIDAF.Model
 {
-    public class Venda : IVenda, SIDAF.Model.IVenda
+    public class Venda : IVenda
     {
         #region Fields
         private Nullable<int> oid;
@@ -26,10 +26,28 @@ namespace SIDAF.Model
             get { return dataVenda; }
             set { dataVenda = value; }
         }
-        private Funcionario func;
+        private Funcionario funcionario;
+
+        public Funcionario Funcionario
+        {
+            get { return funcionario; }
+            set { funcionario = value; }
+        }
         private int tipoVenda;
-        private List<ItemVenda> itens;
-        private Empresa emp;
+
+        public int TipoVenda
+        {
+            get { return tipoVenda; }
+            set { tipoVenda = value; }
+        }
+        //private List<ItemVenda> itens;
+        private Empresa empresa;
+
+        public Empresa Empresa
+        {
+            get { return empresa; }
+            set { empresa = value; }
+        }
         
         #endregion Fields
     }
