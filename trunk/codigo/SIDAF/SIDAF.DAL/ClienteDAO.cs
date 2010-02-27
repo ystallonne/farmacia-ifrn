@@ -92,7 +92,7 @@ namespace SIDAF.DAL
                 Banco.FecharConexao();
             }
         }
-
+        /*
         public Clientes selecionar()
         {
             Clientes clientes = new Clientes();
@@ -105,26 +105,27 @@ namespace SIDAF.DAL
 
                 SqlDataReader dr = cmd.ExecuteReader();
 
-                Pessoa pessoa = null;
+                Cliente cliente = null;
                 while (dr.Read())
                 {
-                    pessoa = new Pessoa();
-                    pessoa.Oid = int.Parse(dr["id"].ToString());
-                    pessoa.Nome = dr["nome"].ToString();
-                    pessoa.Telefone = dr["telefone"].ToString();
-                    pessoas.Add(pessoa);
+                    cliente = new Cliente();
+                    cliente.Oid = int.Parse(dr["id"].ToString());
+                    cliente.Nome = dr["nome"].ToString();
+                    cliente.t.Telefone = dr["telefone"].ToString();
+                    clientes.Add(cliente);
                 }
             }
             catch (Exception e)
             {
-                throw new Exception("ERRO ao tentar selecionar pessoas: " + e.Message);
+                throw new Exception("ERRO ao tentar selecionar clientes: " + e.Message);
             }
             finally
             {
                 Banco.FecharConexao();
             }
-            return pessoas;
+            return clientes;
         }
+         * */
 
     }
 }
