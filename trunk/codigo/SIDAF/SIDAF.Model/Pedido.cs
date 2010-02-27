@@ -18,7 +18,7 @@ namespace SIDAF.Model
         }
         private DateTime data;
 
-        public DateTime data
+        public DateTime Data
         {
             get { return data; }
             set { data = value; }
@@ -26,7 +26,7 @@ namespace SIDAF.Model
 
         private StatusPedido status;
 
-        public StatusPedido status
+        public StatusPedido Status
         {
             get { return status; }
             set { status = value; }
