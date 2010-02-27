@@ -12,7 +12,7 @@ namespace SIDAF.Model
 
         private Nullable<int> oid;
 
-        public Nullable<int> OId
+        public Nullable<int> Oid
         {
             get { return oid; }
         }
