@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Entrada : SIDAF.Model.IEntrada
+    public class Entrada : SIDAF.Model.IEntrada
     {
         #region Fields
         private Nullable<int> oid;
