@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Pedido 
+    public class Pedido 
     {
 
         #region atributos

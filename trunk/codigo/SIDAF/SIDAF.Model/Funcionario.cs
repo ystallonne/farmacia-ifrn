@@ -7,7 +7,7 @@ using SIDAF.Model.Interface;
 
 namespace SIDAF.Model
 {
-    class Funcionario : IFuncionario
+    public class Funcionario : IFuncionario
     {
         private int oid;
 

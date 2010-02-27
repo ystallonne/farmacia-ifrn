@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Filial : Empresa
+    public class Filial : Empresa
     {
         private int oid;
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Especificacao : SIDAF.Model.IEspecificacao
+    public class Especificacao : SIDAF.Model.IEspecificacao
     {
 
         #region atributos
