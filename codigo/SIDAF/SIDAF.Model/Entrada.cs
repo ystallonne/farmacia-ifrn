@@ -23,7 +23,13 @@ namespace SIDAF.Model
             set { dataEntrada = value; }
         }
         private double valor;
-        private Funcionario func;
+
+        private Funcionario funcionario;
+        public Funcionario Funcionario
+        {
+            get { return funcionario; }
+            set { funcionario = value; }
+        }
         #endregion
     }
 }
