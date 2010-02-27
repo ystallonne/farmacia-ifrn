@@ -61,6 +61,7 @@
     <Compile Include="Interface\ISaida.cs" />
     <Compile Include="Interface\ITipoProduto.cs" />
     <Compile Include="Interface\IVenda.cs" />
+    <Compile Include="ItensEstoque.cs" />
     <Compile Include="Pedido.cs" />
     <Compile Include="Empresa.cs" />
     <Compile Include="Empresas.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Interface\ISac.cs" />
     <Compile Include="Interface\IProduto.cs" />
     <Compile Include="ItemEstoque.cs" />
+    <Compile Include="Pedidos.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Sac.cs" />
     <Compile Include="Sacs.cs" />
