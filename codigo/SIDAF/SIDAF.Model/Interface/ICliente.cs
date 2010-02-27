@@ -4,7 +4,7 @@ namespace SIDAF.Model
     interface ICliente
     {
         int Cpf { get; set; }
-        DateTime DataNasc { get; set; }
+        DateTime DataNascimento { get; set; }
         string Nacionalidade { get; set; }
         string Naturalidade { get; set; }
         string Nome { get; set; }
