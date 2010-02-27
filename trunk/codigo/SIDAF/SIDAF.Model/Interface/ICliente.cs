@@ -8,7 +8,7 @@ namespace SIDAF.Model
         string Nacionalidade { get; set; }
         string Naturalidade { get; set; }
         string Nome { get; set; }
-        int Oid { get; set; }
+        int? Oid { get; set; }
         string OrgaoEmissor { get; set; }
         int Rg { get; set; }
         string ToString();
