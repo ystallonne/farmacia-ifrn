@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Usuario
+    public class Usuario
     {
         private int oid;
 

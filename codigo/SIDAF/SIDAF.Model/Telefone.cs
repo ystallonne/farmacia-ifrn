@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SIDAF.Model
 {
-    class Telefone
+    public class Telefone
     {
         private int oid;
 
