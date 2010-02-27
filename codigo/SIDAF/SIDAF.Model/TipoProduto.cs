@@ -10,11 +10,11 @@ namespace SIDAF.Model
 
         #region atributos
 
-        private Nullable<int> id;
+        private Nullable<int> oid;
 
-        public Nullable<int> Id
+        public Nullable<int> OId
         {
-            get { return id; }
+            get { return oid; }
         }
         private string nome;
 
