@@ -1,7 +1,8 @@
 ﻿using System;
-namespace SidafCore
+
+namespace SIDAF.Model
 {
-    interface ITipoProduto
+    public interface ITipoProduto
     {
         int? Id { get; }
         string? Nome { get; set; }
