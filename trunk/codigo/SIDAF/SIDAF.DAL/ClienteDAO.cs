@@ -18,19 +18,12 @@ namespace SIDAF.DAL
                 cmd.CommandType = CommandType.Text;
 
                 cmd.Parameters.AddWithValue("@nome", cliente.Nome);
-
                 cmd.Parameters.AddWithValue("@cpf", cliente.Cpf);
-
                 cmd.Parameters.AddWithValue("@rg", cliente.Rg);
-
                 cmd.Parameters.AddWithValue("@orgao", cliente.OrgaoEmissor);
-
                 cmd.Parameters.AddWithValue("@dataNasc", cliente.DataNascimento);
-
                 cmd.Parameters.AddWithValue("@naturalidade", cliente.Naturalidade);
-
                 cmd.Parameters.AddWithValue("@nacionalidade", cliente.Nacionalidade);
-
                 cmd.ExecuteNonQuery();
             }
             catch (Exception e)
@@ -92,7 +85,7 @@ namespace SIDAF.DAL
                 Banco.FecharConexao();
             }
         }
-        /*
+        
         public Clientes selecionar()
         {
             Clientes clientes = new Clientes();
@@ -111,7 +104,12 @@ namespace SIDAF.DAL
                     cliente = new Cliente();
                     cliente.Oid = int.Parse(dr["id"].ToString());
                     cliente.Nome = dr["nome"].ToString();
-                    cliente.t.Telefone = dr["telefone"].ToString();
+                    cliente.Cpf = dr["cpf"].ToString;
+                    cliente.Rg = dr["rg"].ToString;
+                    cliente.OrgaoEmissor = dr["orgao"].ToString;
+                    cliente.DataNascimento = dr["dataNasc"].ToString;
+                    cliente.Naturalidade = dr["nacionalidade"].ToString;
+                    cliente.Nacionalidade = dr["nacionalidade"].ToString;
                     clientes.Add(cliente);
                 }
             }
@@ -124,8 +122,6 @@ namespace SIDAF.DAL
                 Banco.FecharConexao();
             }
             return clientes;
-        }
-         * */
-
+        }        
     }
 }
