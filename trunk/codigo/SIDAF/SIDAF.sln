@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIDAF.Model", "SIDAF.Model\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIDAF.UI.MATRIZ", "SIDAF.UI.MATRIZ\SIDAF.UI.MATRIZ.csproj", "{C58784BF-D5C5-4041-B43C-DDE605B0284B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIDAF.UI.FILIAL", "SIDAF.UI.FILIAL\SIDAF.UI.FILIAL.csproj", "{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -35,6 +37,10 @@ Global
 		{C58784BF-D5C5-4041-B43C-DDE605B0284B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C58784BF-D5C5-4041-B43C-DDE605B0284B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C58784BF-D5C5-4041-B43C-DDE605B0284B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
