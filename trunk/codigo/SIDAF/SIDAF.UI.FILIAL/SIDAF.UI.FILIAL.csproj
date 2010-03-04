@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -82,6 +82,12 @@
     <Compile Include="Financeiro\frmRegistrarVenda.Designer.cs">
       <DependentUpon>frmRegistrarVenda.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNovoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNovoFuncionario.Designer.cs">
+      <DependentUpon>FormNovoFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,18 +104,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Financeiro\frmAbrirCaixa.resx">
       <DependentUpon>frmAbrirCaixa.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Financeiro\frmEstornarVenda.resx">
       <DependentUpon>frmEstornarVenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Financeiro\frmRegistrarVenda.resx">
       <DependentUpon>frmRegistrarVenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNovoFuncionario.resx">
+      <DependentUpon>FormNovoFuncionario.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Gerencia\frmNovoFuncionario.resx">
       <DependentUpon>frmNovoFuncionario.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

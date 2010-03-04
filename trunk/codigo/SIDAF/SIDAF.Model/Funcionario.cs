@@ -26,9 +26,9 @@ namespace SIDAF.Model
             set { usuario = value; }
         }
 
-        private Categoria categoria;
+        private string categoria;
 
-        public Categoria categoria
+        public string categoria
         {
             get { return categoria; }
             set { categoria = value; }
@@ -108,7 +108,7 @@ namespace SIDAF.Model
         public Funcionario()
         {
         }
-        public Funcionario(Usuario usuario,Categoria categoria, Empresa empresa, Endereco endereco, string nome, int cpf,
+        public Funcionario(Usuario usuario,string categoria, Empresa empresa, Endereco endereco, string nome, int cpf,
             int rg, DateTime dataNasc, DateTime dataAdmissao, Nullable<DateTime> dataDemissao,
             string naturalidade, string nacionalidade)
         {
@@ -131,7 +131,7 @@ namespace SIDAF.Model
         public override string ToString()
         {
             return this.nome + " - " + this.dataNasc.ToString() + " , " + this.dataAdmissao.ToString()
-                + " - " + this.empresa.RazaoSocial + " - " + this.nacionalidade + " - " + this.naturalidade;
+                + " - " + this.empresa.RazaoSocial + " - " + this.nacionalidade + " - " + this.naturalidade + " - " + this.categoria;
         } 
 
 
