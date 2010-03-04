@@ -1,6 +1,6 @@
 ﻿namespace SIDAF.UI.FILIAL.Gerencia
 {
-    partial class frmNovoFuncionario
+    partial class frmRealizarPedido
     {
         /// <summary>
         /// Required designer variable.
