@@ -6,6 +6,7 @@ namespace SIDAF.BLL
 {
     public static class PessoaBLL
     {
+        /*
         public static void salvar(Pessoa pessoa)
         {
             PessoaDAO pessoaDAO = new PessoaDAO();
@@ -43,5 +44,6 @@ namespace SIDAF.BLL
             }
             return null;
         }
+         * */
     }
 }

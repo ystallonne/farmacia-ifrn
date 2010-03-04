@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.groupBoxPedido = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBoxEsp = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnEnviar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
             this.btnNovaEsp = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnEnviar = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.idEspecificacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.especificacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBoxPedido.SuspendLayout();
             this.groupBoxEsp.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxPedido
@@ -57,6 +57,14 @@
             this.groupBoxPedido.TabStop = false;
             this.groupBoxPedido.Text = "Dados do Pedido ";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(15, 32);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(344, 21);
+            this.comboBox1.TabIndex = 1;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -65,14 +73,6 @@
             this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Filial";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(15, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(344, 21);
-            this.comboBox1.TabIndex = 1;
             // 
             // groupBoxEsp
             // 
@@ -87,16 +87,14 @@
             this.groupBoxEsp.TabStop = false;
             this.groupBoxEsp.Text = "Especificações";
             // 
-            // dataGridView1
+            // btnNovaEsp
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idEspecificacao,
-            this.especificacao});
-            this.dataGridView1.Location = new System.Drawing.Point(15, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(344, 192);
-            this.dataGridView1.TabIndex = 0;
+            this.btnNovaEsp.Location = new System.Drawing.Point(284, 225);
+            this.btnNovaEsp.Name = "btnNovaEsp";
+            this.btnNovaEsp.Size = new System.Drawing.Size(75, 23);
+            this.btnNovaEsp.TabIndex = 2;
+            this.btnNovaEsp.Text = "Novo";
+            this.btnNovaEsp.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -109,15 +107,6 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
-            // btnEnviar
-            // 
-            this.btnEnviar.Location = new System.Drawing.Point(281, 16);
-            this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(75, 23);
-            this.btnEnviar.TabIndex = 0;
-            this.btnEnviar.Text = "Enviar";
-            this.btnEnviar.UseVisualStyleBackColor = true;
-            // 
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
@@ -128,25 +117,41 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // btnNovaEsp
+            // btnEnviar
             // 
-            this.btnNovaEsp.Location = new System.Drawing.Point(284, 225);
-            this.btnNovaEsp.Name = "btnNovaEsp";
-            this.btnNovaEsp.Size = new System.Drawing.Size(75, 23);
-            this.btnNovaEsp.TabIndex = 2;
-            this.btnNovaEsp.Text = "Novo";
-            this.btnNovaEsp.UseVisualStyleBackColor = true;
+            this.btnEnviar.Location = new System.Drawing.Point(281, 16);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(75, 23);
+            this.btnEnviar.TabIndex = 0;
+            this.btnEnviar.Text = "Enviar";
+            this.btnEnviar.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idEspecificacao,
+            this.especificacao});
+            this.dataGridView1.Location = new System.Drawing.Point(15, 19);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(344, 192);
+            this.dataGridView1.TabIndex = 0;
             // 
             // idEspecificacao
             // 
             this.idEspecificacao.HeaderText = "Id";
             this.idEspecificacao.Name = "idEspecificacao";
+            this.idEspecificacao.ReadOnly = true;
             this.idEspecificacao.Visible = false;
             // 
             // especificacao
             // 
             this.especificacao.HeaderText = "Especificação";
             this.especificacao.Name = "especificacao";
+            this.especificacao.ReadOnly = true;
             // 
             // frmRealizarPedido
             // 
@@ -162,8 +167,8 @@
             this.groupBoxPedido.ResumeLayout(false);
             this.groupBoxPedido.PerformLayout();
             this.groupBoxEsp.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -7,7 +7,7 @@ namespace SIDAF.DAL
 {
     public sealed class ClienteDAO
     {
-
+        /*
         public void inserir(Cliente cliente)
         {
             try
@@ -123,5 +123,6 @@ namespace SIDAF.DAL
             }
             return clientes;
         }        
+         * */
     }
 }

@@ -7,6 +7,7 @@ namespace SIDAF.DAL
 {
     public sealed class PessoaDAO
     {
+        /*
         public void inserir(Pessoa pessoa)
         {
             try
@@ -16,7 +17,7 @@ namespace SIDAF.DAL
                 SqlCommand cmd = new SqlCommand(comando, Banco.Conexão);
                 cmd.CommandType = CommandType.Text;
                 
-                cmd.Parameters.AddWithValue("@nome", pessoa.Nome);
+                cmd.Parameters.AddWithValue("@nome", pessoa. .Nome);
                 cmd.Parameters.AddWithValue("@telefone", pessoa.Telefone);
                 
                 cmd.ExecuteNonQuery();
@@ -208,6 +209,6 @@ namespace SIDAF.DAL
             }
             return pessoas;
         }
-        
+     */   
     }
 }
