@@ -48,6 +48,8 @@
             this.ribbonSeparator5 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonButton19 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton20 = new System.Windows.Forms.RibbonButton();
+            this.ribbonPanel9 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton21 = new System.Windows.Forms.RibbonButton();
             this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
             this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
@@ -86,8 +88,6 @@
             this.ribbonOrbMenuItem7 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbMenuItem8 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbMenuItem9 = new System.Windows.Forms.RibbonOrbMenuItem();
-            this.ribbonPanel9 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonButton21 = new System.Windows.Forms.RibbonButton();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -363,6 +363,26 @@
             this.ribbonButton20.ToolTip = null;
             this.ribbonButton20.ToolTipImage = null;
             this.ribbonButton20.ToolTipTitle = null;
+            // 
+            // ribbonPanel9
+            // 
+            this.ribbonPanel9.Items.Add(this.ribbonButton21);
+            this.ribbonPanel9.Tag = null;
+            this.ribbonPanel9.Text = "Produtos";
+            // 
+            // ribbonButton21
+            // 
+            this.ribbonButton21.AltKey = null;
+            this.ribbonButton21.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton21.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton21.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton21.Image")));
+            this.ribbonButton21.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton21.SmallImage")));
+            this.ribbonButton21.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton21.Tag = null;
+            this.ribbonButton21.Text = "Localizar";
+            this.ribbonButton21.ToolTip = null;
+            this.ribbonButton21.ToolTipImage = null;
+            this.ribbonButton21.ToolTipTitle = null;
             // 
             // ribbonTab2
             // 
@@ -754,7 +774,7 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripProgressBar1,
             this.toolStripSplitButton1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 486);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 313);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(708, 22);
             this.statusStrip1.TabIndex = 1;
@@ -816,31 +836,11 @@
             this.ribbonOrbMenuItem9.ToolTipImage = null;
             this.ribbonOrbMenuItem9.ToolTipTitle = null;
             // 
-            // ribbonPanel9
-            // 
-            this.ribbonPanel9.Items.Add(this.ribbonButton21);
-            this.ribbonPanel9.Tag = null;
-            this.ribbonPanel9.Text = "Produtos";
-            // 
-            // ribbonButton21
-            // 
-            this.ribbonButton21.AltKey = null;
-            this.ribbonButton21.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
-            this.ribbonButton21.DropDownArrowSize = new System.Drawing.Size(5, 3);
-            this.ribbonButton21.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton21.Image")));
-            this.ribbonButton21.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton21.SmallImage")));
-            this.ribbonButton21.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
-            this.ribbonButton21.Tag = null;
-            this.ribbonButton21.Text = "Localizar";
-            this.ribbonButton21.ToolTip = null;
-            this.ribbonButton21.ToolTipImage = null;
-            this.ribbonButton21.ToolTipTitle = null;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 508);
+            this.ClientSize = new System.Drawing.Size(708, 335);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.ribbon1);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
