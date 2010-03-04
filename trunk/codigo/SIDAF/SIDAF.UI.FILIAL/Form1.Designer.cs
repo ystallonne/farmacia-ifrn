@@ -36,12 +36,40 @@
             this.ribbonOrbMenuItem12 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonOrbMenuItem13 = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonOrbOptionButton2 = new System.Windows.Forms.RibbonOrbOptionButton();
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton16 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton17 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton18 = new System.Windows.Forms.RibbonButton();
+            this.ribbonPanel8 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton14 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton15 = new System.Windows.Forms.RibbonButton();
+            this.ribbonSeparator5 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonButton19 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton20 = new System.Windows.Forms.RibbonButton();
             this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
+            this.ribbonSeparator4 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonButton3 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton8 = new System.Windows.Forms.RibbonButton();
+            this.ribbonPanel5 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton4 = new System.Windows.Forms.RibbonButton();
+            this.ribbonSeparator3 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonButton5 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton6 = new System.Windows.Forms.RibbonButton();
+            this.ribbonPanel6 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton9 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton10 = new System.Windows.Forms.RibbonButton();
             this.ribbonTab3 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel7 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton11 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton12 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton13 = new System.Windows.Forms.RibbonButton();
             this.ribbonTab4 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton7 = new System.Windows.Forms.RibbonButton();
             this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
             this.ribbonButton1 = new System.Windows.Forms.RibbonButton();
             this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
@@ -58,7 +86,8 @@
             this.ribbonOrbMenuItem7 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbMenuItem8 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbMenuItem9 = new System.Windows.Forms.RibbonOrbMenuItem();
-            this.ribbonOrbOptionButton2 = new System.Windows.Forms.RibbonOrbOptionButton();
+            this.ribbonPanel9 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton21 = new System.Windows.Forms.RibbonButton();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -183,26 +212,387 @@
             this.ribbonOrbMenuItem13.ToolTipImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem13.ToolTipImage")));
             this.ribbonOrbMenuItem13.ToolTipTitle = null;
             // 
+            // ribbonOrbOptionButton2
+            // 
+            this.ribbonOrbOptionButton2.AltKey = null;
+            this.ribbonOrbOptionButton2.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonOrbOptionButton2.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonOrbOptionButton2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton2.Image")));
+            this.ribbonOrbOptionButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton2.SmallImage")));
+            this.ribbonOrbOptionButton2.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonOrbOptionButton2.Tag = null;
+            this.ribbonOrbOptionButton2.Text = "Logoff";
+            this.ribbonOrbOptionButton2.ToolTip = null;
+            this.ribbonOrbOptionButton2.ToolTipImage = null;
+            this.ribbonOrbOptionButton2.ToolTipTitle = null;
+            // 
             // ribbonTab1
             // 
             this.ribbonTab1.Panels.Add(this.ribbonPanel1);
+            this.ribbonTab1.Panels.Add(this.ribbonPanel8);
+            this.ribbonTab1.Panels.Add(this.ribbonPanel9);
             this.ribbonTab1.Tag = null;
             this.ribbonTab1.Text = "Início";
             // 
             // ribbonPanel1
             // 
+            this.ribbonPanel1.Items.Add(this.ribbonButton16);
+            this.ribbonPanel1.Items.Add(this.ribbonButton17);
+            this.ribbonPanel1.Items.Add(this.ribbonButton18);
             this.ribbonPanel1.Tag = null;
-            this.ribbonPanel1.Text = "ribbonPanel1";
+            this.ribbonPanel1.Text = "Venda";
+            // 
+            // ribbonButton16
+            // 
+            this.ribbonButton16.AltKey = null;
+            this.ribbonButton16.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton16.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton16.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton16.Image")));
+            this.ribbonButton16.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton16.SmallImage")));
+            this.ribbonButton16.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton16.Tag = null;
+            this.ribbonButton16.Text = "Registrar";
+            this.ribbonButton16.ToolTip = null;
+            this.ribbonButton16.ToolTipImage = null;
+            this.ribbonButton16.ToolTipTitle = null;
+            // 
+            // ribbonButton17
+            // 
+            this.ribbonButton17.AltKey = null;
+            this.ribbonButton17.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton17.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton17.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton17.Image")));
+            this.ribbonButton17.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton17.SmallImage")));
+            this.ribbonButton17.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton17.Tag = null;
+            this.ribbonButton17.Text = "Estornar";
+            this.ribbonButton17.ToolTip = null;
+            this.ribbonButton17.ToolTipImage = null;
+            this.ribbonButton17.ToolTipTitle = null;
+            // 
+            // ribbonButton18
+            // 
+            this.ribbonButton18.AltKey = null;
+            this.ribbonButton18.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton18.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton18.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton18.Image")));
+            this.ribbonButton18.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton18.SmallImage")));
+            this.ribbonButton18.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton18.Tag = null;
+            this.ribbonButton18.Text = "Consultar";
+            this.ribbonButton18.ToolTip = null;
+            this.ribbonButton18.ToolTipImage = null;
+            this.ribbonButton18.ToolTipTitle = null;
+            // 
+            // ribbonPanel8
+            // 
+            this.ribbonPanel8.Items.Add(this.ribbonButton14);
+            this.ribbonPanel8.Items.Add(this.ribbonButton15);
+            this.ribbonPanel8.Items.Add(this.ribbonSeparator5);
+            this.ribbonPanel8.Items.Add(this.ribbonButton19);
+            this.ribbonPanel8.Items.Add(this.ribbonButton20);
+            this.ribbonPanel8.Tag = null;
+            this.ribbonPanel8.Text = "Caixa";
+            // 
+            // ribbonButton14
+            // 
+            this.ribbonButton14.AltKey = null;
+            this.ribbonButton14.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton14.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton14.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton14.Image")));
+            this.ribbonButton14.MinSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
+            this.ribbonButton14.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton14.SmallImage")));
+            this.ribbonButton14.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton14.Tag = null;
+            this.ribbonButton14.Text = "Abrir";
+            this.ribbonButton14.ToolTip = null;
+            this.ribbonButton14.ToolTipImage = null;
+            this.ribbonButton14.ToolTipTitle = null;
+            // 
+            // ribbonButton15
+            // 
+            this.ribbonButton15.AltKey = null;
+            this.ribbonButton15.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton15.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton15.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton15.Image")));
+            this.ribbonButton15.MinSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
+            this.ribbonButton15.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton15.SmallImage")));
+            this.ribbonButton15.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton15.Tag = null;
+            this.ribbonButton15.Text = "Fechar";
+            this.ribbonButton15.ToolTip = null;
+            this.ribbonButton15.ToolTipImage = null;
+            this.ribbonButton15.ToolTipTitle = null;
+            // 
+            // ribbonSeparator5
+            // 
+            this.ribbonSeparator5.AltKey = null;
+            this.ribbonSeparator5.Image = null;
+            this.ribbonSeparator5.Tag = null;
+            this.ribbonSeparator5.Text = null;
+            this.ribbonSeparator5.ToolTip = null;
+            this.ribbonSeparator5.ToolTipImage = null;
+            this.ribbonSeparator5.ToolTipTitle = null;
+            // 
+            // ribbonButton19
+            // 
+            this.ribbonButton19.AltKey = null;
+            this.ribbonButton19.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton19.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton19.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton19.Image")));
+            this.ribbonButton19.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton19.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton19.SmallImage")));
+            this.ribbonButton19.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton19.Tag = null;
+            this.ribbonButton19.Text = "Nova entrada";
+            this.ribbonButton19.ToolTip = null;
+            this.ribbonButton19.ToolTipImage = null;
+            this.ribbonButton19.ToolTipTitle = null;
+            // 
+            // ribbonButton20
+            // 
+            this.ribbonButton20.AltKey = null;
+            this.ribbonButton20.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton20.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton20.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton20.Image")));
+            this.ribbonButton20.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton20.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton20.SmallImage")));
+            this.ribbonButton20.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton20.Tag = null;
+            this.ribbonButton20.Text = "Nova saída";
+            this.ribbonButton20.ToolTip = null;
+            this.ribbonButton20.ToolTipImage = null;
+            this.ribbonButton20.ToolTipTitle = null;
             // 
             // ribbonTab2
             // 
+            this.ribbonTab2.Panels.Add(this.ribbonPanel4);
+            this.ribbonTab2.Panels.Add(this.ribbonPanel5);
+            this.ribbonTab2.Panels.Add(this.ribbonPanel6);
             this.ribbonTab2.Tag = null;
             this.ribbonTab2.Text = "Gerência";
             // 
+            // ribbonPanel4
+            // 
+            this.ribbonPanel4.Items.Add(this.ribbonButton2);
+            this.ribbonPanel4.Items.Add(this.ribbonSeparator4);
+            this.ribbonPanel4.Items.Add(this.ribbonButton3);
+            this.ribbonPanel4.Items.Add(this.ribbonButton8);
+            this.ribbonPanel4.Tag = null;
+            this.ribbonPanel4.Text = "Clientes";
+            // 
+            // ribbonButton2
+            // 
+            this.ribbonButton2.AltKey = null;
+            this.ribbonButton2.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton2.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.Image")));
+            this.ribbonButton2.MinSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
+            this.ribbonButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.SmallImage")));
+            this.ribbonButton2.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton2.Tag = null;
+            this.ribbonButton2.Text = "Novo";
+            this.ribbonButton2.ToolTip = null;
+            this.ribbonButton2.ToolTipImage = null;
+            this.ribbonButton2.ToolTipTitle = null;
+            // 
+            // ribbonSeparator4
+            // 
+            this.ribbonSeparator4.AltKey = null;
+            this.ribbonSeparator4.Image = null;
+            this.ribbonSeparator4.Tag = null;
+            this.ribbonSeparator4.Text = null;
+            this.ribbonSeparator4.ToolTip = null;
+            this.ribbonSeparator4.ToolTipImage = null;
+            this.ribbonSeparator4.ToolTipTitle = null;
+            // 
+            // ribbonButton3
+            // 
+            this.ribbonButton3.AltKey = null;
+            this.ribbonButton3.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton3.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton3.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton3.Image")));
+            this.ribbonButton3.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton3.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton3.SmallImage")));
+            this.ribbonButton3.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton3.Tag = null;
+            this.ribbonButton3.Text = "Localizar";
+            this.ribbonButton3.ToolTip = null;
+            this.ribbonButton3.ToolTipImage = null;
+            this.ribbonButton3.ToolTipTitle = null;
+            // 
+            // ribbonButton8
+            // 
+            this.ribbonButton8.AltKey = null;
+            this.ribbonButton8.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton8.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton8.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.Image")));
+            this.ribbonButton8.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton8.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.SmallImage")));
+            this.ribbonButton8.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton8.Tag = null;
+            this.ribbonButton8.Text = "Editar";
+            this.ribbonButton8.ToolTip = null;
+            this.ribbonButton8.ToolTipImage = null;
+            this.ribbonButton8.ToolTipTitle = null;
+            // 
+            // ribbonPanel5
+            // 
+            this.ribbonPanel5.Items.Add(this.ribbonButton4);
+            this.ribbonPanel5.Items.Add(this.ribbonSeparator3);
+            this.ribbonPanel5.Items.Add(this.ribbonButton5);
+            this.ribbonPanel5.Items.Add(this.ribbonButton6);
+            this.ribbonPanel5.Tag = null;
+            this.ribbonPanel5.Text = "Funcionários";
+            // 
+            // ribbonButton4
+            // 
+            this.ribbonButton4.AltKey = null;
+            this.ribbonButton4.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton4.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.Image")));
+            this.ribbonButton4.MinSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
+            this.ribbonButton4.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.SmallImage")));
+            this.ribbonButton4.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton4.Tag = null;
+            this.ribbonButton4.Text = "Novo";
+            this.ribbonButton4.ToolTip = null;
+            this.ribbonButton4.ToolTipImage = null;
+            this.ribbonButton4.ToolTipTitle = null;
+            // 
+            // ribbonSeparator3
+            // 
+            this.ribbonSeparator3.AltKey = null;
+            this.ribbonSeparator3.Image = null;
+            this.ribbonSeparator3.Tag = null;
+            this.ribbonSeparator3.Text = null;
+            this.ribbonSeparator3.ToolTip = null;
+            this.ribbonSeparator3.ToolTipImage = null;
+            this.ribbonSeparator3.ToolTipTitle = null;
+            // 
+            // ribbonButton5
+            // 
+            this.ribbonButton5.AltKey = null;
+            this.ribbonButton5.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton5.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.Image")));
+            this.ribbonButton5.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton5.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.SmallImage")));
+            this.ribbonButton5.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton5.Tag = null;
+            this.ribbonButton5.Text = "Localizar";
+            this.ribbonButton5.ToolTip = null;
+            this.ribbonButton5.ToolTipImage = null;
+            this.ribbonButton5.ToolTipTitle = null;
+            // 
+            // ribbonButton6
+            // 
+            this.ribbonButton6.AltKey = null;
+            this.ribbonButton6.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton6.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton6.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.Image")));
+            this.ribbonButton6.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton6.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.SmallImage")));
+            this.ribbonButton6.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton6.Tag = null;
+            this.ribbonButton6.Text = "Editar";
+            this.ribbonButton6.ToolTip = null;
+            this.ribbonButton6.ToolTipImage = null;
+            this.ribbonButton6.ToolTipTitle = null;
+            // 
+            // ribbonPanel6
+            // 
+            this.ribbonPanel6.Items.Add(this.ribbonButton9);
+            this.ribbonPanel6.Items.Add(this.ribbonButton10);
+            this.ribbonPanel6.Tag = null;
+            this.ribbonPanel6.Text = "Pedidos";
+            // 
+            // ribbonButton9
+            // 
+            this.ribbonButton9.AltKey = null;
+            this.ribbonButton9.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton9.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton9.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton9.Image")));
+            this.ribbonButton9.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton9.SmallImage")));
+            this.ribbonButton9.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton9.Tag = null;
+            this.ribbonButton9.Text = "Solicitar";
+            this.ribbonButton9.ToolTip = null;
+            this.ribbonButton9.ToolTipImage = null;
+            this.ribbonButton9.ToolTipTitle = null;
+            // 
+            // ribbonButton10
+            // 
+            this.ribbonButton10.AltKey = null;
+            this.ribbonButton10.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton10.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton10.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton10.Image")));
+            this.ribbonButton10.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton10.SmallImage")));
+            this.ribbonButton10.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton10.Tag = null;
+            this.ribbonButton10.Text = "Acompanhar";
+            this.ribbonButton10.ToolTip = null;
+            this.ribbonButton10.ToolTipImage = null;
+            this.ribbonButton10.ToolTipTitle = null;
+            // 
             // ribbonTab3
             // 
+            this.ribbonTab3.Panels.Add(this.ribbonPanel7);
             this.ribbonTab3.Tag = null;
             this.ribbonTab3.Text = "Relatórios";
+            // 
+            // ribbonPanel7
+            // 
+            this.ribbonPanel7.Items.Add(this.ribbonButton11);
+            this.ribbonPanel7.Items.Add(this.ribbonButton12);
+            this.ribbonPanel7.Items.Add(this.ribbonButton13);
+            this.ribbonPanel7.Tag = null;
+            this.ribbonPanel7.Text = "Visualizar";
+            // 
+            // ribbonButton11
+            // 
+            this.ribbonButton11.AltKey = null;
+            this.ribbonButton11.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton11.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton11.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton11.Image")));
+            this.ribbonButton11.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton11.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton11.SmallImage")));
+            this.ribbonButton11.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton11.Tag = null;
+            this.ribbonButton11.Text = "Histórico de Vendas";
+            this.ribbonButton11.ToolTip = null;
+            this.ribbonButton11.ToolTipImage = null;
+            this.ribbonButton11.ToolTipTitle = null;
+            // 
+            // ribbonButton12
+            // 
+            this.ribbonButton12.AltKey = null;
+            this.ribbonButton12.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton12.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton12.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton12.Image")));
+            this.ribbonButton12.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton12.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton12.SmallImage")));
+            this.ribbonButton12.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton12.Tag = null;
+            this.ribbonButton12.Text = "Produtos em estoque";
+            this.ribbonButton12.ToolTip = null;
+            this.ribbonButton12.ToolTipImage = null;
+            this.ribbonButton12.ToolTipTitle = null;
+            // 
+            // ribbonButton13
+            // 
+            this.ribbonButton13.AltKey = null;
+            this.ribbonButton13.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton13.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton13.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton13.Image")));
+            this.ribbonButton13.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Medium;
+            this.ribbonButton13.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton13.SmallImage")));
+            this.ribbonButton13.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton13.Tag = null;
+            this.ribbonButton13.Text = "Informações de caixa";
+            this.ribbonButton13.ToolTip = null;
+            this.ribbonButton13.ToolTipImage = null;
+            this.ribbonButton13.ToolTipTitle = null;
             // 
             // ribbonTab4
             // 
@@ -213,8 +603,23 @@
             // 
             // ribbonPanel2
             // 
+            this.ribbonPanel2.Items.Add(this.ribbonButton7);
             this.ribbonPanel2.Tag = null;
             this.ribbonPanel2.Text = "Autenticação";
+            // 
+            // ribbonButton7
+            // 
+            this.ribbonButton7.AltKey = null;
+            this.ribbonButton7.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton7.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton7.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.Image")));
+            this.ribbonButton7.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.SmallImage")));
+            this.ribbonButton7.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton7.Tag = null;
+            this.ribbonButton7.Text = "Logoff";
+            this.ribbonButton7.ToolTip = null;
+            this.ribbonButton7.ToolTipImage = null;
+            this.ribbonButton7.ToolTipTitle = null;
             // 
             // ribbonPanel3
             // 
@@ -411,19 +816,25 @@
             this.ribbonOrbMenuItem9.ToolTipImage = null;
             this.ribbonOrbMenuItem9.ToolTipTitle = null;
             // 
-            // ribbonOrbOptionButton2
+            // ribbonPanel9
             // 
-            this.ribbonOrbOptionButton2.AltKey = null;
-            this.ribbonOrbOptionButton2.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
-            this.ribbonOrbOptionButton2.DropDownArrowSize = new System.Drawing.Size(5, 3);
-            this.ribbonOrbOptionButton2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton2.Image")));
-            this.ribbonOrbOptionButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton2.SmallImage")));
-            this.ribbonOrbOptionButton2.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
-            this.ribbonOrbOptionButton2.Tag = null;
-            this.ribbonOrbOptionButton2.Text = "Logoff";
-            this.ribbonOrbOptionButton2.ToolTip = null;
-            this.ribbonOrbOptionButton2.ToolTipImage = null;
-            this.ribbonOrbOptionButton2.ToolTipTitle = null;
+            this.ribbonPanel9.Items.Add(this.ribbonButton21);
+            this.ribbonPanel9.Tag = null;
+            this.ribbonPanel9.Text = "Produtos";
+            // 
+            // ribbonButton21
+            // 
+            this.ribbonButton21.AltKey = null;
+            this.ribbonButton21.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonButton21.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonButton21.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton21.Image")));
+            this.ribbonButton21.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton21.SmallImage")));
+            this.ribbonButton21.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonButton21.Tag = null;
+            this.ribbonButton21.Text = "Localizar";
+            this.ribbonButton21.ToolTip = null;
+            this.ribbonButton21.ToolTipImage = null;
+            this.ribbonButton21.ToolTipTitle = null;
             // 
             // Form1
             // 
@@ -474,6 +885,35 @@
         private System.Windows.Forms.RibbonSeparator ribbonSeparator2;
         private System.Windows.Forms.RibbonOrbMenuItem ribbonOrbMenuItem13;
         private System.Windows.Forms.RibbonOrbOptionButton ribbonOrbOptionButton2;
+        private System.Windows.Forms.RibbonPanel ribbonPanel4;
+        private System.Windows.Forms.RibbonButton ribbonButton2;
+        private System.Windows.Forms.RibbonButton ribbonButton3;
+        private System.Windows.Forms.RibbonPanel ribbonPanel5;
+        private System.Windows.Forms.RibbonButton ribbonButton4;
+        private System.Windows.Forms.RibbonSeparator ribbonSeparator3;
+        private System.Windows.Forms.RibbonButton ribbonButton5;
+        private System.Windows.Forms.RibbonButton ribbonButton6;
+        private System.Windows.Forms.RibbonSeparator ribbonSeparator4;
+        private System.Windows.Forms.RibbonButton ribbonButton8;
+        private System.Windows.Forms.RibbonButton ribbonButton7;
+        private System.Windows.Forms.RibbonPanel ribbonPanel6;
+        private System.Windows.Forms.RibbonButton ribbonButton9;
+        private System.Windows.Forms.RibbonButton ribbonButton10;
+        private System.Windows.Forms.RibbonPanel ribbonPanel7;
+        private System.Windows.Forms.RibbonButton ribbonButton11;
+        private System.Windows.Forms.RibbonButton ribbonButton12;
+        private System.Windows.Forms.RibbonButton ribbonButton13;
+        private System.Windows.Forms.RibbonPanel ribbonPanel8;
+        private System.Windows.Forms.RibbonButton ribbonButton16;
+        private System.Windows.Forms.RibbonButton ribbonButton17;
+        private System.Windows.Forms.RibbonButton ribbonButton18;
+        private System.Windows.Forms.RibbonButton ribbonButton14;
+        private System.Windows.Forms.RibbonButton ribbonButton15;
+        private System.Windows.Forms.RibbonButton ribbonButton19;
+        private System.Windows.Forms.RibbonButton ribbonButton20;
+        private System.Windows.Forms.RibbonSeparator ribbonSeparator5;
+        private System.Windows.Forms.RibbonPanel ribbonPanel9;
+        private System.Windows.Forms.RibbonButton ribbonButton21;
     }
 }
 
