@@ -3,7 +3,7 @@ namespace SIDAF.Model
 {
     interface IFuncionario
     {
-        Categoria categoria { get; set; }
+        string categoria { get; set; }
         int Cpf { get; set; }
         DateTime DataAdmissao { get; set; }
         DateTime? DataDemissao { get; set; }
