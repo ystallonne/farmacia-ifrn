@@ -31,6 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ribbon1 = new System.Windows.Forms.Ribbon();
             this.ribbonOrbMenuItem6 = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonOrbMenuItem10 = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonOrbMenuItem11 = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonOrbMenuItem12 = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonOrbMenuItem13 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
             this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
@@ -53,7 +58,7 @@
             this.ribbonOrbMenuItem7 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbMenuItem8 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbMenuItem9 = new System.Windows.Forms.RibbonOrbMenuItem();
-            this.ribbonOrbMenuItem10 = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonOrbOptionButton2 = new System.Windows.Forms.RibbonOrbOptionButton();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,8 +75,13 @@
             this.ribbon1.OrbDropDown.Location = new System.Drawing.Point(0, 0);
             this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem6);
             this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem10);
+            this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem11);
+            this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem12);
+            this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonSeparator2);
+            this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem13);
             this.ribbon1.OrbDropDown.Name = "";
-            this.ribbon1.OrbDropDown.Size = new System.Drawing.Size(527, 160);
+            this.ribbon1.OrbDropDown.OptionItems.Add(this.ribbonOrbOptionButton2);
+            this.ribbon1.OrbDropDown.Size = new System.Drawing.Size(527, 295);
             this.ribbon1.OrbDropDown.TabIndex = 0;
             this.ribbon1.OrbImage = null;
             // 
@@ -102,10 +112,76 @@
             this.ribbonOrbMenuItem6.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem6.SmallImage")));
             this.ribbonOrbMenuItem6.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
             this.ribbonOrbMenuItem6.Tag = null;
-            this.ribbonOrbMenuItem6.Text = "ribbonOrbMenuItem6";
+            this.ribbonOrbMenuItem6.Text = "Informações";
             this.ribbonOrbMenuItem6.ToolTip = null;
             this.ribbonOrbMenuItem6.ToolTipImage = null;
             this.ribbonOrbMenuItem6.ToolTipTitle = null;
+            // 
+            // ribbonOrbMenuItem10
+            // 
+            this.ribbonOrbMenuItem10.AltKey = null;
+            this.ribbonOrbMenuItem10.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
+            this.ribbonOrbMenuItem10.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonOrbMenuItem10.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem10.Image")));
+            this.ribbonOrbMenuItem10.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem10.SmallImage")));
+            this.ribbonOrbMenuItem10.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonOrbMenuItem10.Tag = null;
+            this.ribbonOrbMenuItem10.Text = "Opções";
+            this.ribbonOrbMenuItem10.ToolTip = null;
+            this.ribbonOrbMenuItem10.ToolTipImage = null;
+            this.ribbonOrbMenuItem10.ToolTipTitle = null;
+            // 
+            // ribbonOrbMenuItem11
+            // 
+            this.ribbonOrbMenuItem11.AltKey = null;
+            this.ribbonOrbMenuItem11.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
+            this.ribbonOrbMenuItem11.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonOrbMenuItem11.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem11.Image")));
+            this.ribbonOrbMenuItem11.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem11.SmallImage")));
+            this.ribbonOrbMenuItem11.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonOrbMenuItem11.Tag = null;
+            this.ribbonOrbMenuItem11.Text = "Imprimir";
+            this.ribbonOrbMenuItem11.ToolTip = null;
+            this.ribbonOrbMenuItem11.ToolTipImage = null;
+            this.ribbonOrbMenuItem11.ToolTipTitle = null;
+            // 
+            // ribbonOrbMenuItem12
+            // 
+            this.ribbonOrbMenuItem12.AltKey = null;
+            this.ribbonOrbMenuItem12.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
+            this.ribbonOrbMenuItem12.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonOrbMenuItem12.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem12.Image")));
+            this.ribbonOrbMenuItem12.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem12.SmallImage")));
+            this.ribbonOrbMenuItem12.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonOrbMenuItem12.Tag = null;
+            this.ribbonOrbMenuItem12.Text = "Ajuda";
+            this.ribbonOrbMenuItem12.ToolTip = null;
+            this.ribbonOrbMenuItem12.ToolTipImage = null;
+            this.ribbonOrbMenuItem12.ToolTipTitle = null;
+            // 
+            // ribbonSeparator2
+            // 
+            this.ribbonSeparator2.AltKey = null;
+            this.ribbonSeparator2.Image = null;
+            this.ribbonSeparator2.Tag = null;
+            this.ribbonSeparator2.Text = null;
+            this.ribbonSeparator2.ToolTip = null;
+            this.ribbonSeparator2.ToolTipImage = null;
+            this.ribbonSeparator2.ToolTipTitle = null;
+            // 
+            // ribbonOrbMenuItem13
+            // 
+            this.ribbonOrbMenuItem13.AltKey = null;
+            this.ribbonOrbMenuItem13.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
+            this.ribbonOrbMenuItem13.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonOrbMenuItem13.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem13.Image")));
+            this.ribbonOrbMenuItem13.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem13.SmallImage")));
+            this.ribbonOrbMenuItem13.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonOrbMenuItem13.Tag = null;
+            this.ribbonOrbMenuItem13.Text = "Sair";
+            this.ribbonOrbMenuItem13.ToolTip = null;
+            this.ribbonOrbMenuItem13.ToolTipImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem13.ToolTipImage")));
+            this.ribbonOrbMenuItem13.ToolTipTitle = null;
             // 
             // ribbonTab1
             // 
@@ -335,19 +411,19 @@
             this.ribbonOrbMenuItem9.ToolTipImage = null;
             this.ribbonOrbMenuItem9.ToolTipTitle = null;
             // 
-            // ribbonOrbMenuItem10
+            // ribbonOrbOptionButton2
             // 
-            this.ribbonOrbMenuItem10.AltKey = null;
-            this.ribbonOrbMenuItem10.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
-            this.ribbonOrbMenuItem10.DropDownArrowSize = new System.Drawing.Size(5, 3);
-            this.ribbonOrbMenuItem10.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem10.Image")));
-            this.ribbonOrbMenuItem10.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem10.SmallImage")));
-            this.ribbonOrbMenuItem10.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
-            this.ribbonOrbMenuItem10.Tag = null;
-            this.ribbonOrbMenuItem10.Text = "h";
-            this.ribbonOrbMenuItem10.ToolTip = null;
-            this.ribbonOrbMenuItem10.ToolTipImage = null;
-            this.ribbonOrbMenuItem10.ToolTipTitle = null;
+            this.ribbonOrbOptionButton2.AltKey = null;
+            this.ribbonOrbOptionButton2.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Down;
+            this.ribbonOrbOptionButton2.DropDownArrowSize = new System.Drawing.Size(5, 3);
+            this.ribbonOrbOptionButton2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton2.Image")));
+            this.ribbonOrbOptionButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton2.SmallImage")));
+            this.ribbonOrbOptionButton2.Style = System.Windows.Forms.RibbonButtonStyle.Normal;
+            this.ribbonOrbOptionButton2.Tag = null;
+            this.ribbonOrbOptionButton2.Text = "Logoff";
+            this.ribbonOrbOptionButton2.ToolTip = null;
+            this.ribbonOrbOptionButton2.ToolTipImage = null;
+            this.ribbonOrbOptionButton2.ToolTipTitle = null;
             // 
             // Form1
             // 
@@ -393,6 +469,11 @@
         private System.Windows.Forms.RibbonOrbMenuItem ribbonOrbMenuItem8;
         private System.Windows.Forms.RibbonOrbMenuItem ribbonOrbMenuItem9;
         private System.Windows.Forms.RibbonOrbMenuItem ribbonOrbMenuItem10;
+        private System.Windows.Forms.RibbonOrbMenuItem ribbonOrbMenuItem11;
+        private System.Windows.Forms.RibbonOrbMenuItem ribbonOrbMenuItem12;
+        private System.Windows.Forms.RibbonSeparator ribbonSeparator2;
+        private System.Windows.Forms.RibbonOrbMenuItem ribbonOrbMenuItem13;
+        private System.Windows.Forms.RibbonOrbOptionButton ribbonOrbOptionButton2;
     }
 }
 
