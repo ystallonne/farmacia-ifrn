@@ -28,7 +28,7 @@ namespace SIDAF.Model
 
         private string categoria;
 
-        public string categoria
+        public string Categoria
         {
             get { return categoria; }
             set { categoria = value; }
