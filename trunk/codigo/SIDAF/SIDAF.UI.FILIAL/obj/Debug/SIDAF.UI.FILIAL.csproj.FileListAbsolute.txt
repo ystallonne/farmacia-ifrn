@@ -1,9 +1,13 @@
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Financeiro.frmAbrirCaixa.resources
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Financeiro.frmEstornarVenda.resources
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Financeiro.frmRegistrarVenda.resources
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Form1.resources
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Gerencia.frmAddEspecificacao.resources
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Gerencia.frmRealizarPedido.resources
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Properties.Resources.resources
-C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.csproj.GenerateResource.Cache
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\bin\Debug\SIDAF.UI.FILIAL.exe
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\bin\Debug\SIDAF.UI.FILIAL.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\bin\Debug\System.Windows.Forms.Ribbon.DLL
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\ResolveAssemblyReference.cache
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Financeiro.frmAbrirCaixa.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Financeiro.frmEstornarVenda.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Financeiro.frmRegistrarVenda.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Form1.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Gerencia.frmNovoFuncionario.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.Properties.Resources.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.csproj.GenerateResource.Cache
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.exe
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.pdb
