@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace SIDAF.UI.FILIAL.Gerencia
 {
-    public partial class frmRealizarPedido : Form
+    public partial class frmAddEspecificacao : Form
     {
-        public frmRealizarPedido()
+        public frmAddEspecificacao()
         {
             InitializeComponent();
         }
