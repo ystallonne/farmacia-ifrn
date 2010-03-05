@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBoxPedido = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBoxEsp = new System.Windows.Forms.GroupBox();
             this.btnNovaEsp = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnEnviar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idEspecificacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.especificacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idEspecificacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBoxPedido.SuspendLayout();
             this.groupBoxEsp.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -56,14 +56,6 @@
             this.groupBoxPedido.TabIndex = 0;
             this.groupBoxPedido.TabStop = false;
             this.groupBoxPedido.Text = "Dados do Pedido ";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(15, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(344, 21);
-            this.comboBox1.TabIndex = 1;
             // 
             // label1
             // 
@@ -126,6 +118,27 @@
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(15, 32);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(344, 21);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // especificacao
+            // 
+            this.especificacao.HeaderText = "Especificação";
+            this.especificacao.Name = "especificacao";
+            this.especificacao.ReadOnly = true;
+            // 
+            // idEspecificacao
+            // 
+            this.idEspecificacao.HeaderText = "Id";
+            this.idEspecificacao.Name = "idEspecificacao";
+            this.idEspecificacao.ReadOnly = true;
+            this.idEspecificacao.Visible = false;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
@@ -139,19 +152,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(344, 192);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // idEspecificacao
-            // 
-            this.idEspecificacao.HeaderText = "Id";
-            this.idEspecificacao.Name = "idEspecificacao";
-            this.idEspecificacao.ReadOnly = true;
-            this.idEspecificacao.Visible = false;
-            // 
-            // especificacao
-            // 
-            this.especificacao.HeaderText = "Especificação";
-            this.especificacao.Name = "especificacao";
-            this.especificacao.ReadOnly = true;
             // 
             // frmRealizarPedido
             // 
@@ -176,14 +176,14 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBoxPedido;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBoxEsp;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnEnviar;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnNovaEsp;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn idEspecificacao;
         private System.Windows.Forms.DataGridViewTextBoxColumn especificacao;
     }
