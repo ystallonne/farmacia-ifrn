@@ -1,0 +1,15 @@
+USE [SIDAF]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE selecionarCLIENTEporID
+	@IDCliente int
+AS
+	SELECT * FROM [SIDAF].[dbo].[Cliente]
+	WHERE IDCliente = @IDCliente
+GO
