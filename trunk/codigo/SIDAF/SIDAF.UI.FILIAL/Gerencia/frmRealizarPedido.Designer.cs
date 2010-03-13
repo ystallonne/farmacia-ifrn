@@ -35,7 +35,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnEnviar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbUF = new System.Windows.Forms.ComboBox();
             this.especificacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idEspecificacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -47,7 +47,7 @@
             // 
             // groupBoxPedido
             // 
-            this.groupBoxPedido.Controls.Add(this.comboBox1);
+            this.groupBoxPedido.Controls.Add(this.cbUF);
             this.groupBoxPedido.Controls.Add(this.label1);
             this.groupBoxPedido.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBoxPedido.Location = new System.Drawing.Point(0, 0);
@@ -120,11 +120,11 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(15, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(344, 21);
-            this.comboBox1.TabIndex = 1;
+            this.cbUF.FormattingEnabled = true;
+            this.cbUF.Location = new System.Drawing.Point(15, 32);
+            this.cbUF.Name = "comboBox1";
+            this.cbUF.Size = new System.Drawing.Size(344, 21);
+            this.cbUF.TabIndex = 1;
             // 
             // especificacao
             // 
