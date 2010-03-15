@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -94,6 +94,18 @@
     <Compile Include="Gerencia\frmAddEspecificacao.Designer.cs">
       <DependentUpon>frmAddEspecificacao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gerencia\frmBuscaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmBuscaProduto.Designer.cs">
+      <DependentUpon>frmBuscaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmNovoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmNovoCliente.Designer.cs">
+      <DependentUpon>frmNovoCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gerencia\frmRealizarPedido.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +138,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gerencia\frmAddEspecificacao.resx">
       <DependentUpon>frmAddEspecificacao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerencia\frmBuscaProduto.resx">
+      <DependentUpon>frmBuscaProduto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerencia\frmNovoCliente.resx">
+      <DependentUpon>frmNovoCliente.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Gerencia\frmRealizarPedido.resx">
