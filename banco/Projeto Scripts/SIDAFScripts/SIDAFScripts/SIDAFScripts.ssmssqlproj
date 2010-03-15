@@ -180,6 +180,16 @@
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>PRO_cadastrarFUNCIONARIO.sql</FullPath>
+		   <FileNode Name="PRO_selecionarPRODUTOporID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_selecionarPRODUTOporID.sql</FullPath>
+		  <FileNode Name="PRO_selecionarPRODUTOporNOME.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_selecionarPRODUTOporNOME.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
