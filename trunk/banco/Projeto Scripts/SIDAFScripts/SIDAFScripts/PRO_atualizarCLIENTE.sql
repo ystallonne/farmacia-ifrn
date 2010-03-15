@@ -20,7 +20,7 @@ AS
 	UPDATE [SIDAF].[dbo].[Cliente]
 	SET [cpf] = @cpf
 	   ,[rg] = @rg
-       ,[orgaoEmissor] = @orgaoEmissor
+       ,[orgaoEmissorRg] = @orgaoEmissor
        ,[naturalidade] = @naturalidade
        ,[nacionalidade] = @nacionalidade
        ,[dataCadastro] = @dataCadastro
