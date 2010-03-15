@@ -24,7 +24,7 @@ AS
 	SET [IDUsuario] = @IDUsuario 
        ,[cpf] = @cpf
 	   ,[rg] = @rg
-       ,[orgaoEmissor] = @orgaoEmissor
+       ,[orgaoEmissorRg] = @orgaoEmissor
        ,[naturalidade] = @naturalidade
        ,[nacionalidade] = @nacionalidade
        ,[tipoFuncionario] = @tipoFuncionario
