@@ -16,3 +16,12 @@ C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\bin\De
 C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.dll
 C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.pdb
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.dll
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.pdb
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.dll
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.dll
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.pdb
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.pdb
+E:\codigo\SIDAF\SIDAF.BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.dll
+E:\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.pdb
