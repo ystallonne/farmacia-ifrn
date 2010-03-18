@@ -7,9 +7,18 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE PROCEDURE excluirFUNCIONARIO
-	@IDFunc int
+ALTER PROCEDURE excluirFUNCIONARIO
+	@IDFunc int,
+	@IDUsuario int,
+	@IDEndereco int
 AS
+
+	DELETE FROM Endereco
+	WHERE IDEndereco = @IDEndereco
+	
+	DELETE FROM Usuario
+	WHERE IDUsuario = @IDUsuario
+	
 	DELETE FROM Funcionario
 	WHERE IDFuncionario = @IDFunc
 GO
