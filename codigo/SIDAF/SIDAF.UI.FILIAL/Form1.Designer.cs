@@ -793,6 +793,7 @@
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
             this.toolStripSplitButton1.Size = new System.Drawing.Size(32, 20);
             this.toolStripSplitButton1.Text = "toolStripSplitButton1";
+            this.toolStripSplitButton1.ButtonClick += new System.EventHandler(this.toolStripSplitButton1_ButtonClick);
             // 
             // ribbonOrbMenuItem7
             // 
@@ -846,6 +847,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Name = "Form1";
             this.Text = "SIDAF Módulo Filial";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
