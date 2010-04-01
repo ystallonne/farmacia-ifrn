@@ -16,7 +16,11 @@ ALTER PROCEDURE [dbo].[cadastrarCliente]
 	@dataNascimento datetime,
 	@cpf char(11),
 	@rg int,
+<<<<<<< .mine
+	@orgaoEmissorRg varchar(50),
+=======
 	@orgaoEmissorRg varchar(10),
+>>>>>>> .r140
 	@naturalidade varchar(50),
 	@nacionalidade varchar(50),
 	@telefoneFixo nchar(10),
@@ -38,6 +42,25 @@ ALTER PROCEDURE [dbo].[cadastrarCliente]
 	
 	
 AS
+<<<<<<< .mine
+	INSERT INTO [SIDAF].[dbo].[Cliente]
+		       ([cpf]
+	           ,[rg]
+		       ,[orgaoEmissorRg]
+			   ,[naturalidade]
+			   ,[nacionalidade]
+			   ,[dataCadastro]
+			   ,[IDUsuario])
+     VALUES
+           (@cpf
+           ,@rg
+           ,@orgaoEmissorRg
+           ,@naturalidade
+           ,@nacionalidade
+           ,@dataCadastro
+           ,@IDUsuario)
+GO
+=======
 	BEGIN
 	   SET NOCOUNT ON
 	
@@ -67,6 +90,7 @@ AS
 					  
 			-- DECLARA A VARIÁVEL PARA RECUPERAR O ULTIMO IDENDERECO
 				DECLARE @IDEndereco int = SCOPE_IDENTITY()
+>>>>>>> .r140
 
 	INSERT INTO Cliente
 				(IDEndereco
