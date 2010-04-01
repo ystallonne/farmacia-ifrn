@@ -18,10 +18,18 @@
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
   <ItemGroup>
     <Folder Include="ModelDefinition\" />
+    <Content Include="Casos de Uso\UCDMatriz.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Casos de Uso\UCDMatriz.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Casos de Uso\UCDMatriz.usecasediagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\SIDAF.Arquitetura.uml">
       <SubType>Content</SubType>
     </Content>
     <Folder Include="Arquitetura" />
+    <Folder Include="Casos de Uso" />
   </ItemGroup>
   <ItemGroup>
     <Validate Include="Arquitetura\DiagramaArquitetura.layerdiagram">
