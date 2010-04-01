@@ -10,20 +10,17 @@ GO
 CREATE PROCEDURE cadastrarESTORNO
 	@IDFuncionario int,
 	@IDCaixa int,
-	@IDCliente int,
-	@dataEstorno date
+	@IDCliente int
 	
 AS
 	INSERT INTO [SIDAF].[dbo].[Estorno]
 		       ([IDFuncionario]
 	           ,[IDCaixa]
-		       ,[IDCliente]
-			   ,[dataEstorno])
+		       ,[IDCliente])
      VALUES
            (@IDFuncionario
            ,@IDCaixa
-           ,@IDCliente
-           ,@dataEstorno)
+           ,@IDCliente)
 GO
 
 
