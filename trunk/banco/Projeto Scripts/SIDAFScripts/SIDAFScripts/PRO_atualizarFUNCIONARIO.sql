@@ -21,8 +21,7 @@ ALTER PROCEDURE [dbo].[atualizarFUNCIONARIO]
 	@email varchar(50),
 	@tipoFuncionario int,
 	@isAtivo binary,
-	@IDUsuario int,
-	@login varchar(50),
+	@IDUsuario int,	
 	@senha varchar(1000),
 	@IDEmpresa int,
 	@IDEndereco int,
@@ -31,35 +30,58 @@ ALTER PROCEDURE [dbo].[atualizarFUNCIONARIO]
 	@logradouro varchar(150),
 	@numero int,
 	@complemento varchar(20),
-	@bairro varchar(100)	
+	@bairro varchar(100),
+	@dataCadastro date	
 AS
-	UPDATE Funcionario
-	SET nome = @nome
-		,dataNascimento = @dataNascimento 
-		,cpf = @cpf
-	    ,rg = @rg
-        ,orgaoEmissorRg = @orgaoEmissor
-        ,naturalidade = @naturalidade
-        ,nacionalidade = @nacionalidade
-        ,telefoneFixo = @telefoneFixo
-        ,celular = @celular
-        ,email = @email        
-        ,tipoFuncionario = @tipoFuncionario
-        ,IDEmpresa = @IDEmpresa
-        ,dataCadastro = @dataCadastro
-        ,isAtivo = @isAtivo
-        WHERE IDFuncionario = @IDFuncionario
-        UPDATE Usuario
-			SET	 login = @login
-				,senha = dbo.CriptografaSenha(@senha)
-				WHERE IDUsuario = @IDUsuario
+	BEGIN
+	   SET NOCOUNT ON
+	   
+	   -- INICIANDO A TRANSAÇÃO
+	   BEGIN TRANSACTION
+	   BEGIN
+		UPDATE Funcionario
+			SET	nome = @nome
+				,dataNascimento = @dataNascimento 
+				,cpf = @cpf
+				,rg = @rg
+				,orgaoEmissorRg = @orgaoEmissorRg
+				,naturalidade = @naturalidade
+				,nacionalidade = @nacionalidade
+				,telefoneFixo = @telefoneFixo
+				,celular = @celular
+				,email = @email        
+				,tipoFuncionario = @tipoFuncionario
+				,IDEmpresa = @IDEmpresa
+				,dataUltimaAlteracao = @dataCadastro
+				,isAtivo = @isAtivo
+			WHERE IDFuncionario = @IDFuncionario
+        
+			DECLARE @IDFunc int = SCOPE_IDENTITY()
+        
+			UPDATE Usuario
+				SET	 login
+					,senha = dbo.CriptografaSenha(@senha)
+				WHERE IDUsuario = @IDFunc
 				
-		UPDATE Endereco
-			SET  cep = @cep
-				,logradouro = @logradouro
-				,numero = @numero
-				,complemento = @complemento
-				,bairro = @bairro
-				,IDCidade = @IDCidade
-				WHERE IDEndereco = @IDEndereco
-GO
+			DECLARE @IDEnd int = SCOPE_IDENTITY()
+				
+			UPDATE Endereco
+				SET  cep = @cep
+					,logradouro = @logradouro
+					,numero = @numero
+					,complemento = @complemento
+					,bairro = @bairro
+					,IDCidade = @IDCidade
+				WHERE IDEndereco = @IDEnd
+				IF @@ERROR = 0
+
+				-- FECHA A TRANSAÇÃO 
+					COMMIT TRANSACTION
+					ELSE
+
+						-- REVERTIMENTO DA TRANSAÇÃO
+						ROLLBACK TRANSACTION
+					
+					END
+				END
+			
