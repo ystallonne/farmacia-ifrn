@@ -61,8 +61,8 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -307,8 +307,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.maskedTextBox1);
-            this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.mtxtCelular);
             this.groupBox3.Controls.Add(this.label19);
             this.groupBox3.Controls.Add(this.mtxtTelefone);
@@ -317,7 +315,7 @@
             this.groupBox3.Controls.Add(this.label18);
             this.groupBox3.Location = new System.Drawing.Point(16, 330);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(597, 94);
+            this.groupBox3.Size = new System.Drawing.Size(597, 68);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Contato";
@@ -349,15 +347,15 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(61, 64);
+            this.txtEmail.Location = new System.Drawing.Point(386, 31);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(204, 20);
+            this.txtEmail.Size = new System.Drawing.Size(188, 20);
             this.txtEmail.TabIndex = 5;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(20, 67);
+            this.label16.Location = new System.Drawing.Point(344, 34);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(35, 13);
             this.label16.TabIndex = 2;
@@ -372,28 +370,31 @@
             this.label18.TabIndex = 0;
             this.label18.Text = "Telefone:";
             // 
-            // maskedTextBox1
+            // button2
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(456, 31);
-            this.maskedTextBox1.Mask = "(99)9999-9999";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(84, 20);
-            this.maskedTextBox1.TabIndex = 20;
+            this.button2.Location = new System.Drawing.Point(421, 417);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 20;
+            this.button2.Text = "Cancelar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // label13
+            // button1
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(340, 34);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(101, 13);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Telefone Comercial:";
+            this.button1.Location = new System.Drawing.Point(514, 417);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Inserir";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // frmNovoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 428);
+            this.ClientSize = new System.Drawing.Size(625, 458);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -438,13 +439,13 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.MaskedTextBox mtxtCelular;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.MaskedTextBox mtxtTelefone;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
