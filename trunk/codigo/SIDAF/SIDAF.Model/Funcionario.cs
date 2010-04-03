@@ -15,7 +15,6 @@ namespace SIDAF.Model
         public Nullable<int> Oid
         {
             get { return oid; }
-            set { oid = value; }
         }
 
         private Usuario usuario;
@@ -26,9 +25,9 @@ namespace SIDAF.Model
             set { usuario = value; }
         }
 
-        private string categoria;
+        private int categoria;
 
-        public string Categoria
+        public int Categoria
         {
             get { return categoria; }
             set { categoria = value; }
@@ -48,6 +47,30 @@ namespace SIDAF.Model
             get { return endereco; }
             set { endereco = value; }
         }
+        private Nullable<string> telefone;
+
+        public Nullable<string> Telefone
+        {
+            get { return telefone; }
+            set { telefone = value; }
+        }
+        
+        private Nullable<string> celular;
+
+        public Nullable<string> Celular
+        {
+            get { return celular; }
+            set { celular = value; }
+        }
+
+        private Nullable<string> email;
+
+        public Nullable<string> Email
+        {
+            get { return email; }
+            set { email = value; }
+        }
+
         private string nome;
 
         public string Nome
@@ -62,16 +85,25 @@ namespace SIDAF.Model
             get { return cpf; }
             set { cpf = value; }
         }
-        private int rg;
+        private Nullable<int> rg;
 
-        public int Rg
+        public Nullable<int> Rg
         {
             get { return rg; }
             set { rg = value; }
         }
-        private DateTime dataNasc;
 
-        public DateTime DataNasc
+        private Nullable<string> orgaoEmissor;
+
+        public Nullable<string> OrgaoEmissor
+        {
+            get { return orgaoEmissor; }
+            set { orgaoEmissor = value; }
+        }
+
+        private Nullable<DateTime> dataNasc;
+
+        public Nullable<DateTime> DataNasc
         {
             get { return dataNasc; }
             set { dataNasc = value; }
@@ -80,26 +112,27 @@ namespace SIDAF.Model
 
         public DateTime DataAdmissao
         {
-            get { return dataAdmissao; }
-            set { dataAdmissao = value; }
+            get { return dataAdmissao; }            
         }
-        private Nullable<DateTime> dataDemissao;
 
-        public Nullable<DateTime> DataDemissao
+        private Nullable<DateTime> dataUltimaAlteracao;
+
+        public Nullable<DateTime> DataUltimaAlteracao
         {
-            get { return dataDemissao; }
-            set { dataDemissao = value; }
+            get { return dataUltimaAlteracao; }
+            set { dataUltimaAlteracao = value; }
         }
-        private string naturalidade;
 
-        public string Naturalidade
+        private Nullable<string> naturalidade;
+
+        public Nullable<string> Naturalidade
         {
             get { return naturalidade; }
             set { naturalidade = value; }
         }
-        private string nacionalidade;
+        private Nullable<string> nacionalidade;
 
-        public string Nacionalidade
+        public Nullable<string> Nacionalidade
         {
             get { return nacionalidade; }
             set { nacionalidade = value; }
@@ -108,26 +141,30 @@ namespace SIDAF.Model
         public Funcionario()
         {
         }
-        public Funcionario(Usuario usuario,string categoria, Empresa empresa, Endereco endereco, string nome, int cpf,
-            int rg, DateTime dataNasc, DateTime dataAdmissao, Nullable<DateTime> dataDemissao,
-            string naturalidade, string nacionalidade)
+        public Funcionario(Usuario usuario,int categoria, Empresa empresa, Endereco endereco, string nome, int cpf,
+            int rg, string orgaoEmissor, DateTime dataNasc, DateTime dataAdmissao, DateTime dataUltimaAlteracao,
+            string naturalidade, string nacionalidade, string telefone, string celular, string email)
         {
             this.usuario = usuario;
             this.categoria = categoria;
             this.empresa = empresa;
             this.endereco = endereco;
+            this.telefone = telefone;
+            this.celular = celular;
+            this.email = email;
             this.nome = nome;
             this.cpf = cpf;
             this.rg = rg;
+            this.orgaoEmissor = orgaoEmissor;
             this.dataNasc = dataNasc;
             this.dataAdmissao = dataAdmissao;
-            this.dataDemissao = dataDemissao;
+            this.dataUltimaAlteracao = dataUltimaAlteracao;
             this.naturalidade = naturalidade;
             this.nacionalidade = nacionalidade;
 
         }
 
-
+        
         public override string ToString()
         {
             return this.nome + " - " + this.dataNasc.ToString() + " , " + this.dataAdmissao.ToString()
