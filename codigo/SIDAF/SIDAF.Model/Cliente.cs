@@ -29,6 +29,31 @@ namespace SIDAF.Model
             get { return endereco; }
             set { endereco = value; }
         }
+
+        private Nullable<string> telefone;
+
+        public Nullable<string> Telefone
+        {
+            get { return telefone; }
+            set { telefone = value; }
+        }
+
+        private Nullable<string> celular;
+
+        public Nullable<string> Celular
+        {
+            get { return celular; }
+            set { celular = value; }
+        }
+
+        private Nullable<string> email;
+
+        public Nullable<string> Email
+        {
+            get { return email; }
+            set { email = value; }
+        }
+
         private string nome;
 
         public string Nome
@@ -43,48 +68,63 @@ namespace SIDAF.Model
             get { return cpf; }
             set { cpf = value; }
         }
-        private int rg;
+        
+        private Nullable<int> rg;
 
-        public int Rg
+        public Nullable<int> Rg
         {
             get { return rg; }
             set { rg = value; }
         }
 
-        private string orgaoEmissor;
+        private Nullable<string> orgaoEmissor;
 
-        public string OrgaoEmissor
+        public Nullable<string> OrgaoEmissor
         {
             get { return orgaoEmissor; }
             set { orgaoEmissor = value; }
         }
-        private DateTime dataNascimento;
 
-        public DateTime DataNascimento
+        private Nullable<DateTime> dataNasc;
+
+        public Nullable<DateTime> DataNasc
         {
-            get { return dataNascimento; }
-            set { dataNascimento = value; }
+            get { return dataNasc; }
+            set { dataNasc = value; }
         }
-        private string naturalidade;
+        private DateTime dataAdmissao;
 
-        public string Naturalidade
+        public DateTime DataAdmissao
+        {
+            get { return dataAdmissao; }
+        }
+
+        private Nullable<DateTime> dataUltimaAlteracao;
+
+        public Nullable<DateTime> DataUltimaAlteracao
+        {
+            get { return dataUltimaAlteracao; }
+            set { dataUltimaAlteracao = value; }
+        }
+
+        private Nullable<string> naturalidade;
+
+        public Nullable<string> Naturalidade
         {
             get { return naturalidade; }
             set { naturalidade = value; }
         }
-        private string nacionalidade;
+        private Nullable<string> nacionalidade;
 
-        public string Nacionalidade
+        public Nullable<string> Nacionalidade
         {
             get { return nacionalidade; }
             set { nacionalidade = value; }
         }
 
-
-
-
-        public Cliente(Usuario usuario, Endereco endereco, string nome, int cpf,
-            int rg, DateTime dataNasc,string orgaoEmissor, string naturalidade, string nacionalidade)
+        public Cliente(Usuario usuario, Endereco endereco, string telefone, string celular, 
+            string email, string nome, int cpf,int rg, DateTime dataNasc, DateTime dataAdmissao, 
+            DateTime dataUltimaAlteracao, string orgaoEmissor, string naturalidade, string nacionalidade)
         {
             this.usuario = usuario;
             this.endereco = endereco;
@@ -92,14 +132,19 @@ namespace SIDAF.Model
             this.cpf = cpf;
             this.rg = rg;
             this.orgaoEmissor = orgaoEmissor;
-            this.dataNascimento = dataNasc;
+            this.telefone = telefone;
+            this.celular = celular;
+            this.email = email;
+            this.dataNasc = dataNasc;
+            this.dataAdmissao = dataAdmissao;
+            this.dataUltimaAlteracao = dataUltimaAlteracao;
             this.naturalidade = naturalidade;
             this.nacionalidade = nacionalidade;
         }
 
         public override string ToString()
         {
-            return this.nome + " - " + this.dataNascimento.ToString() + " - " + this.cpf.ToString() + " - " + this.endereco.ToString();
+            return this.nome + " - " + this.dataNasc.ToString() + " - " + this.cpf.ToString() + " - " + this.endereco.ToString();
         } 
         
     }

@@ -15,3 +15,13 @@ C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI
 C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.csproj.GenerateResource.Cache
 C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.exe
 C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.pdb
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.exe
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.pdb
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\ResolveAssemblyReference.cache
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.frmPrincipal.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.Gerencia.frmbuscarFuncionario.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.FILIAL.Gerencia.frmRealizarPedido.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.Properties.Resources.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.csproj.GenerateResource.Cache
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.exe
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.pdb
