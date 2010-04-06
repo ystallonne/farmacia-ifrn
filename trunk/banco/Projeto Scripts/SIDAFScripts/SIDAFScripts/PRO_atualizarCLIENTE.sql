@@ -11,7 +11,7 @@ ALTER PROCEDURE [dbo].[atualizarCLIENTE]
 	
 	--DADOS DE CLIENTE
 	@IDCliente int,
-	@IDUsuario int,
+	@IDUsuario int,	
 	@IDEndereco int,
 	@nome varchar(150),
 	@dataNascimento datetime,
@@ -36,12 +36,18 @@ ALTER PROCEDURE [dbo].[atualizarCLIENTE]
 	@complemento varchar(20),
 	@bairro varchar(100)
 AS
+	BEGIN
+	   SET NOCOUNT ON
+	   
+	   -- INICIANDO A TRANSAÇÃO
+	   BEGIN TRANSACTION
+	   BEGIN
 	UPDATE Cliente
 	SET	 nome = @nome
 		,dataNascimento = @dataNascimento
 		,cpf = @cpf		
 		,rg = @rg
-		,orgaoEmissorRg = @orgaoEmissor
+		,orgaoEmissorRg = @orgaoEmissorRg
 		,naturalidade = @naturalidade
 		,nacionalidade = @nacionalidade
 		,telefoneFixo = @telefoneFixo
@@ -49,10 +55,12 @@ AS
 		,email = @email
 		,dataUltimaAlteracao = @dataUltimaAlteracao
 		WHERE IDCliente = @IDCliente
+			
 		UPDATE Usuario
-			SET	 login = @login
-				,senha = dbo.CriptografaSenha(@senha)
-				WHERE IDUsuario = @IDUsuario
+			SET	senha = dbo.CriptografaSenha(@senha)
+				WHERE IDLogin = @IDUsuario
+				
+		
 				
 		UPDATE Endereco
 			SET  cep = @cep
@@ -62,5 +70,15 @@ AS
 				,bairro = @bairro
 				,IDCidade = @IDCidade
 				WHERE IDEndereco = @IDEndereco
-GO
+				IF @@ERROR = 0
+
+				-- FECHA A TRANSAÇÃO 
+					COMMIT TRANSACTION
+					ELSE
+
+						-- REVERTIMENTO DA TRANSAÇÃO
+						ROLLBACK TRANSACTION
+		END
+	END
+		
 		
