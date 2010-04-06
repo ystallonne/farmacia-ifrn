@@ -415,6 +415,7 @@
             this.ribbonButton2.ToolTip = null;
             this.ribbonButton2.ToolTipImage = null;
             this.ribbonButton2.ToolTipTitle = null;
+            this.ribbonButton2.Click += new System.EventHandler(this.ribbonButton2_Click);
             // 
             // ribbonSeparator4
             // 
