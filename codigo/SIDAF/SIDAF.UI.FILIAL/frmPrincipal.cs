@@ -20,5 +20,12 @@ namespace SIDAF.UI.FILIAL
         {
 
         }
+
+        private void ribbonButton2_Click(object sender, EventArgs e)
+        {
+            Gerencia.frmNovoCliente form = new SIDAF.UI.FILIAL.Gerencia.frmNovoCliente();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }

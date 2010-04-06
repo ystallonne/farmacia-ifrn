@@ -32,3 +32,6 @@ D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído
 D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.csproj.GenerateResource.Cache
 D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.exe
 D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\obj\Debug\SIDAF.UI.FILIAL.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\bin\Debug\SIDAF.UI.FILIAL.exe
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\bin\Debug\SIDAF.UI.FILIAL.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.FILIAL\bin\Debug\System.Windows.Forms.Ribbon.DLL
